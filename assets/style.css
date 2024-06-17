@@ -100,13 +100,17 @@ body {
 .gallery .nav {
 	justify-content: center;
 }
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
-	background-color: #BEB45A;
-	border-radius:0 ;
+
+/*Ajout classe active-tag pour surlignage des filtres*/
+.active-tag, .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+	color: #fff !important;
+	background-color: #BEB45A !important;
+	border-radius:0 !important;
 }
+/*Ajout du cursor: pointer*/
 .nav-pills .nav-link {
-	color: #000
+	color: #000;
+	cursor: pointer;
 }
 .item-column {
 	position: relative;
