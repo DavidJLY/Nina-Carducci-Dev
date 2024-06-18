@@ -8,7 +8,7 @@ body {
 	font-style:normal
 	}
 	
-	.top-header {
+	header {
 	background-color:#fff;
 	position:sticky;
 	top:0;
@@ -20,22 +20,22 @@ body {
 	align-items:center
 	}
 	
-	.top-header .name {
+	header .name {
 	font-size:26px
 	}
 	
-	.nav ul {
+	nav ul {
 	display:flex;
 	list-style-type:none;
 	font-size:14px;
 	margin-bottom:0
 	}
 	
-	.nav li {
+	nav li {
 	padding-inline:10px
 	}
 	
-	.nav a {
+	nav a {
 	text-decoration:none;
 	color:#000
 	}
@@ -200,7 +200,7 @@ body {
 	z-index:1
 	}
 	
-	#contact {
+	footer {
 	margin:auto;
 	background-color:#D8D3A8;
 	position:relative;
@@ -208,7 +208,7 @@ body {
 	padding-block:100px
 	}
 	
-	#contact .container {
+	footer .container {
 	display:flex
 	}
 	
@@ -262,7 +262,7 @@ body {
 	flex:2
 	}
 	
-	#about,#contact .container {
+	#about,footer .container {
 	align-items:center
 	}
 	
@@ -324,11 +324,11 @@ body {
 	z-index:0
 	}
 	
-	#contact .container {
+	footer .container {
 	flex-direction:column
 	}
 	
-	#contact .picture.right {
+	footer .picture.right {
 	margin-top:1em
 	}
 	
@@ -343,17 +343,17 @@ body {
 	}
 	
 	@media all and (max-width: 650px) {
-	.top-header {
+	header {
 	flex-direction:column;
 	padding-inline:0
 	}
 	
-	.top-header .nav,.top-header .nav ul {
+	header nav,header nav ul {
 	width:100%;
 	padding:0
 	}
 	
-	.top-header .nav li {
+	header nav li {
 	flex:1;
 	padding-block:1em;
 	text-align:center
@@ -371,7 +371,7 @@ body {
 	max-width:90%
 	}
 	
-	#about,#contact {
+	#about,footer {
 	padding-inline:2em;
 	padding-block:2em
 	}
