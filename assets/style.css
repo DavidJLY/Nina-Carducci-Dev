@@ -105,7 +105,7 @@ body {
 	}
 	
 	.active-tag,.nav-pills .nav-link.active,.nav-pills .show > .nav-link {
-	color:#fff!important;
+	color:#000!important;
 	background-color:#BEB45A!important;
 	border-radius:0!important
 	}
